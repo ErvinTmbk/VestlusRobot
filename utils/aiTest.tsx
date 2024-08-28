@@ -1,8 +1,3 @@
-// import { config } from 'dotenv';
-// config();
-
-//import { createOpenAI } from '@ai-sdk/openai';
-//import { generateText } from 'ai';
 
 // For testint purposes common JS syntax
 const { config } = require('dotenv');
@@ -18,6 +13,8 @@ const openAI = createOpenAI({
     compatibility: 'strict',
 });
 
+
+// Function to test connection
 async function testModel() {
     const result = await generateText({
         model: openAI("gpt-4"),
@@ -26,4 +23,5 @@ async function testModel() {
     console.log(result.text)
 }
 
+// Call test function
 testModel();
