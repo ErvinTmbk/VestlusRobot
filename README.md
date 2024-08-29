@@ -59,5 +59,5 @@ Puudub ka regex, et vältida injection rünnakuid.
 
 ## Märge Vercel deploymenti kohta
 
-Vercelisse ülespandud versioon jookseb kliendi poolsesse errorisse, ilmselt AI vastuse suuruse tõttu, ma pole kindel kuidas seda parandada, sest lokaalselt ei teki seda errorit ja Vercel ei logi põhjalikult, miks see error tekib.
+Vercelisse ülespandud versioon (https://vestlus-robot.vercel.app/) jookseb kliendi poolsesse errorisse, ilmselt AI vastuse suuruse tõttu, ma pole kindel kuidas seda parandada, sest lokaalselt ei teki seda errorit ja Vercel ei logi põhjalikult, miks see error tekib.
 
