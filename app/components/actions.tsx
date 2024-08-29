@@ -12,7 +12,7 @@ import { generateId } from 'ai';
 // Create a new customizable instance of openAI 
 const openAI = createOpenAI({
     // API key as provided in the test assignment is stored in the .env
-    apiKey: process.env.API_URL,
+    apiKey: "sk-svcacct-romJ0Cqv-3M_yPahYI8EjrekXfslFCjVlbNRyEQrrDB-hePXA-fHT949_bpXQ_t5PvdvT3BlbkFJLPOAok-gfpgpl_6HYw_AT-HK14zxg1geBOQ7QeOnLdfSWMuctNRCNbEiK4y0d18vkOkA",
     compatibility: 'strict',
 });
 
