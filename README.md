@@ -56,3 +56,8 @@ Kuna rakendus on kohutavalt lihtne, ei ole sellel väga palju võimalike riskipu
 Peamiseks riskipunktiks on see et kasutajal on võimalik saata terve hunniku sõnumeid serverisse, selle maandamiseks peaks täiendama funktsionaalsust, mis piirab kasutaja võimalust saata sõnumeid.
 
 Puudub ka regex, et vältida injection rünnakuid.
+
+## Märge Vercel deploymenti kohta
+
+Vercelisse ülespandud versioon jookseb kliendi poolsesse errorisse, ilmselt AI vastuse suuruse tõttu, ma pole kindel kuidas seda parandada, sest lokaalselt ei teki seda errorit ja Vercel ei logi põhjalikult, miks see error tekib.
+
