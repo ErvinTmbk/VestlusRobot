@@ -12,7 +12,7 @@ import { generateId } from 'ai';
 // Create a new customizable instance of openAI 
 const openAI = createOpenAI({
     // API key as provided in the test assignment is stored in the .env
-    apiKey: process.env.NEXT_PUBLIC_API_URL,
+    apiKey: process.env.API_URL,
     compatibility: 'strict',
 });
 
