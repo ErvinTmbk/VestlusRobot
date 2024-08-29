@@ -1,17 +1,14 @@
 "use client";
 
-import ChatViaAPI from "./components/chatViaAPI";
 import ChatMessages from "./components/chatMessages";
 import ChatInput from "./components/chatInput";
-import { useState } from "react";
-import { useActions, useUIState } from "ai/rsc";
-import { ClientMessage } from "./components/actions";
-import { generateId } from "ai";
+import PageHeading from "./components/pageHeading";
 
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex flex-col h-screen flex-grow overflow-y-auto">
+      <PageHeading></PageHeading>
       <ChatMessages></ChatMessages>
       <ChatInput></ChatInput>
     </main>
