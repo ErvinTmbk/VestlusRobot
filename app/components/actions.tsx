@@ -29,6 +29,7 @@ export interface ClientMessage {
     display: ReactNode;
 }
 
+// Main function for AI conversation
 export async function continueConversation(
     input: string,
 ): Promise<ClientMessage> {
@@ -60,7 +61,7 @@ export async function continueConversation(
 
 }
 
-
+// Create AI wrapper to allow using useUIState in the application
 export const AI = createAI<ServerMessage[], ClientMessage[]>({
     actions: {
       continueConversation,

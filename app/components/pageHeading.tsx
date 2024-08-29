@@ -1,4 +1,5 @@
 
+// Function to create a simple component to act as the heading for the chatbot
 export default function PageHeading () {
     return(
         <div className="bg-neutral-700">

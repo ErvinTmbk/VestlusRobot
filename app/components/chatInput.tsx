@@ -69,7 +69,7 @@ export default function ChatInput() {
                         placeholder="Type your message..."
                         style={{
                             overflow: 'hidden',
-                          }}
+                        }}
                         rows={1}
                         disabled={isResponding}
                     />
